@@ -1,0 +1,36 @@
+li {
+  list-style-type: none;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
+p {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  background-color: #ffffff;
+  width: 50vw;
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+}
+.image-div {
+  margin-top: 30px;
+}
